@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Healthy Eating Plates</title>
+	<script type="text/javascript" src="tools.javascript"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well">
+        <h2>Calories Calculator</h2>
+        <form id="user-input">
+          <div class="form-group">
+            <label for="contactFirstName">Weight in Pounds</label>
+            <input type="text" class="" id="weightInPounds" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="Height">Height</label>
+            <input type="text" class="" id="heightFeet" placeholder="Feet">
+            <input type="text" class="" id="heightInches" placeholder="Inches">
+          </div>
+          <div class="form-group">
+            <label for="Height">Age</label>
+            <input type="number" class="" id="heightInches" placeholder="" min="1" max="105">
+          </div>
+          <div class="form-group">
+            <label for="Gender">Gender</label>
+            <label for="genderMale">Male</label>
+            <input type="radio" class="" id="genderMale" placeholder="" value="male">
+            <label for="genderFemale">Female</label>
+            <input type="radio" class="" id="genderFemale" placeholder="" value="female">
+          </div>
+          <div class="form-group">
+            <select name="activity" id="activity">
+              <option value="1.0">Basal Metabolic Rate</option>
+              <option value="1.2">Little/no exercise</option>
+              <option selected="true" value="1.375">3 times/week</option>
+              <option value="1.4187">4 times/week</option>
+              <option value="1.4625">5 times/week</option>
+              <option value="1.550">Daily</option>
+              <option value="1.6375">5 times/week (intense)</option>
+              <option value="1.725">Daily (intense) or twice daily</option>
+              <option value="1.9">Daily exercise + physical job</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="submit" class="submit-button btn" id="genderFemale" placeholder="">
+          </div>
+        </form>
+      </div>
+      <!--<div class="well">
+        <div ng-controller="ExampleController">
+          <form novalidate class="simple-form">
+            Name:
+            <input type="text" ng-model="user.name" />
+            <br /> E-mail:
+            <input type="email" ng-model="user.email" />
+            <br /> Gender:
+            <input type="radio" ng-model="user.gender" value="male" />male
+            <input type="radio" ng-model="user.gender" value="female" />female
+            <br />
+            <input type="button" ng-click="reset()" value="Reset" />
+            <input type="submit" ng-click="update(user)" value="Save" />
+          </form>
+        </div>
+      </div>-->
+      
+    </div>
+    <div class="col-md-6">
+      <!--      <div class="row">
+      <h3><span class="weight-in-kilograms"></span> Kilograms</h3>
+      </div>
+      <div class="row">
+        <h3><span class="height-inches-total"></span> Inches</h3>
+      </div>
+      <div class="row">
+        <h3><span class="height-cm-total"></span> cm</h3>
+      </div>-->
+      <div class="row" id="men-cal-display">
+        <h3>Men</h3>
+        <h4><span class="cals-for-men"></span></h4>
+      </div>
+      <div class="row" id="women-cal-display">
+        <h3>Women</h3>
+        <h4><span class="cals-for-women"></span></h4>
+      </div>
+
+<!--      <div class="row">
+        <pre>form = {{user | json}}</pre>
+        <pre>master = {{master | json}}</pre>
+      </div>-->
+    </div>
+  </div>
+</div>
+</body>
+</html>
