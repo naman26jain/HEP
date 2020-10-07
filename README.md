@@ -1,5 +1,6 @@
 # HEP
 [![HitCount](http://hits.dwyl.com/naman26jain/HEP.svg)](http://hits.dwyl.com/naman26jain/HEP)
+[![HitCount](http://hits.dwyl.com/naman26jain/HEP.svg)](http://hits.dwyl.com/naman26jain/HEP)
 Healthy eating plate 
 A recipe sharing web-app.
 using mongodb
