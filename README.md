@@ -1,7 +1,7 @@
 # HEP
 
-Healthy eating plate 
-A recipe sharing web-app.
+Healthy Eating Plate 
+A recipe sharing Web Application
 using mongodb
-for project of HUMAN COMPUTER INTERACTION (Fall sem 2020)
-h
+for project of HUMAN COMPUTER INTERACTION (For sem 2020)
+
