@@ -1,4 +1,6 @@
 body{
+    padding: 15px;
+    
 	background-color:  #f2fcfe!important;
 }
 .blurb h2 {
@@ -137,4 +139,32 @@ section.below-recipe-title a {
 section.below-recipe-title a:hover {
     color: rgb(92, 73, 73);
 }
+.calc{
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+/* Styles go here */
 
+
+  
+  .input-label {
+    width: 150px;
+    text-align: left;
+  }
+  
+  .input-macros {
+    width: 100px;
+    text-align: left;
+  }
+  
+  .input-select {
+    width: 100%;
+  }
+  
+  .btn-toggle {
+    color: #A66D3B;
+    background-color: #FCF8E3;
+    border-color: #8A6D3B;
+  }
